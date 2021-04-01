@@ -2,8 +2,6 @@ import Web3 from 'web3';
 
 let web3;
 
-const arrayNumber = [3,3 ,3 ,3]
-
 if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
     // we are in the browser and metamask is running
     web3 = new Web3(window.ethereum);
